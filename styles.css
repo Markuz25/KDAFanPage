@@ -62,6 +62,7 @@
   background: #e62097;
 }
 
+/*Contenedor Principal*/
 .section-principal {
   background-color: rgba(240, 238, 238, 0.952);
   margin: 50px 30px;
@@ -94,6 +95,7 @@
   width: 50%;
 }
 
+/*Seccion de historia*/
 #inicios {
   margin: 30px 30px;
   padding: 10px 10px;
@@ -116,4 +118,50 @@
   line-height: 2;
   font-size: 15px;
   font-weight: bold;
+}
+
+/* Seccion de integrantes*/
+
+#integrantes {
+  margin: 30px 30px;
+  padding: 10px 10px;
+  background-color: rgba(240, 238, 238, 0.952);
+}
+
+#integrantes h3 {
+  text-align: center;
+  font-size: 40px;
+  color: #c520e6;
+}
+
+#integrantes .grid-cards {
+  padding-top: 15px;
+  padding-left: 100px;
+  display: grid;
+  grid-template: repeat(2, auto) / repeat(2, 50%);
+}
+#integrantes .grid-cards h4 {
+  padding: 10px 0;
+  font-size: 25px;
+  text-align: center;
+}
+#integrantes .grid-cards p {
+  margin: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+}
+.integrante-foto {
+  width: 450px;
+}
+
+.item5 {
+  display: flex;
+  grid-column: 1 / span 2;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item5 .integrante-foto-flex{
+    width:450px;
+    margin:auto;
 }
