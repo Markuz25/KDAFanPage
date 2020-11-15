@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .header {
@@ -22,9 +23,13 @@
 
 .header .nav .menu li {
   margin: 0 20px;
-  font-family: "Courier New", Courier, monospace;
   color: #000;
   font-size: 20px;
+}
+
+.header .nav .menu li:hover {
+  background: #e62097;
+  border-radius: 28px;
 }
 
 .header .botones a {
@@ -33,7 +38,6 @@
 }
 .header .botones .button {
   margin: 0 auto;
-  font-family: "Courier New", Courier, monospace;
   font-size: 20px;
 }
 
@@ -59,7 +63,7 @@
 }
 
 .section-principal {
-    background-color:rgba(240, 238, 238, 0.952);
+  background-color: rgba(240, 238, 238, 0.952);
   margin: 50px 30px;
   padding: 10px 10px;
   display: flex;
@@ -67,25 +71,49 @@
   align-items: center;
 }
 
-.section-principal .information-container{
-    text-align: left;
+.section-principal .information-container {
+  text-align: left;
 }
 
-.titulo{
-    font-size: 70px;
-    color:#c520e6;
-    word-spacing: 10px;
-    margin-top:0;
-    margin-bottom:15px;
+.titulo {
+  font-size: 70px;
+  color: #c520e6;
+  word-spacing: 10px;
+  margin-top: 0;
+  margin-bottom: 15px;
 }
 
-.section-principal .information-container .information{
-    text-align: left;
-    font-size: 20px;
-    padding-right:50px;
+.section-principal .information-container .information {
+  text-align: left;
+  font-size: 20px;
+  padding-right: 50px;
 }
 
-.section-principal .information-container .video{
-    padding-right: 50px;
-    width:50%;
+.section-principal .information-container .video {
+  padding-right: 50px;
+  width: 50%;
+}
+
+#inicios {
+  margin: 30px 30px;
+  padding: 10px 10px;
+  display: flex;
+  background-color: rgba(240, 238, 238, 0.952);
+}
+
+#inicios .kda {
+  width: 50%;
+}
+
+#inicios article h3 {
+  font-size: 40px;
+  color: #c520e6;
+}
+#inicios article {
+  float: left;
+  margin: 5px 30px;
+  text-align: center;
+  line-height: 2;
+  font-size: 15px;
+  font-weight: bold;
 }
